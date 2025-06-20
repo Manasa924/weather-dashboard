@@ -1,0 +1,44 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: url('weather.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 40px;
+  text-align: center;
+}
+
+.container {
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.85);  /* semi-transparent white */
+  padding: 30px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.result p {
+  margin: 5px 0;
+  font-size: 18px;
+}
